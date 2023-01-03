@@ -1,0 +1,346 @@
+/*
+GENÉRICOS DO CSS
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    
+}
+
+body {
+    background-color: #D1D1D1;
+}
+
+header {
+    background: #393939;
+    width: 100%;
+    height: 75px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #D1D1D1;
+}
+
+p {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+section {
+    margin-top: 75px;
+}
+
+/*
+HEADER
+*/
+
+header > a {
+    padding-right: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 1000px) {
+    .p-header-topics {
+        display: flex;
+        width: 40%;
+        height: 75px;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1000px) {
+    .p-header-topics {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        height: 100px;
+        font-size: 18px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    header {
+        height: 100px;
+        width: 100%;
+    }
+
+    .p-header-lang {
+        margin-right: 20px;
+    }
+
+    #pt {
+        margin-right: 4px;
+    }
+
+
+}
+
+
+.p-header-lang {
+    cursor: pointer;
+}
+
+/*
+APRESENTAÇÃO
+*/
+@media (min-width: 1000px) {
+    .presentation {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 150px;
+    }
+    
+    .titles {
+        display: flex;
+        width: 30%;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .presentation h2 {
+        margin-top: 25px;
+        text-align: center;
+    }
+    
+    .presentation img {
+        width: 300px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .presentation {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 150px;
+    }
+    .presentation img {
+        width: 300px;
+    }
+    .titles {
+        margin-top: 20px;
+        display: flex;
+        width: 80%;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .presentation h2 {
+        margin-top: 25px;
+        text-align: center;
+    }
+
+}
+
+/*
+SOBRE MIM
+*/
+
+
+.about {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+
+}
+@media (min-width: 1000px) {
+    .about p {
+        width: 50%;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .about p {
+        width: 80%;
+        margin-top: 40px;
+    }
+}
+.about h3 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/*
+PROJETOS RECENTES
+*/
+
+.recent-projects-intro {
+    text-align: justify;
+}
+
+@media (min-width: 1000px) {
+    #img-alucar {
+        width: 450px;
+    }
+    .recent-projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .recent-projects-intro {
+        margin-top: 30px;
+        width: 80%;
+    }
+    
+    .projects {
+        margin-top: 50px;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .project-desc {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 25px;
+    }
+    
+    .project-desc p {
+        width: 40%;
+        text-align: justify;
+    }
+    
+    .left-project h1 {
+        margin-left: 50px;
+    }
+    
+    .right-project {
+        margin-top: 50px;
+    }
+    
+    .right-project h1 {
+        margin-left: 70%;
+    }
+    
+    #img-site {
+        width: 500px;
+    }
+}
+@media (max-width: 1000px) {
+    #img-alucar, #img-site {
+        width: 350px;
+    }
+    .recent-projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .recent-projects-intro {
+        margin-top: 30px;
+        width: 80%;
+    }
+    
+    .projects {
+        margin-top: 50px;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .project-desc {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 25px;
+    }
+    
+    .project-desc p {
+        margin-top: 20px;
+        width: 80%;
+        text-align: justify;
+    }
+
+    .left-project {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    .right-project {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .right-project .project-desc {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+/*
+FOOTER E CONTATO
+*/
+footer {
+    background: #393939;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+.footer-contact {
+    padding: 20px;
+}
+@media (min-width: 1000px) {
+
+    .social-medias {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .social-medias {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

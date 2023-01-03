@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <div class="p-header-topics">
+                <a href="#about" lng-tag="about">Sobre Mim</a>
+                <a href="#recent-projects" lng-tag="recent">Projetos Recentes</a>
+                <a href="#contact" lng-tag="contact">Contato</a>
+            </div>
+            <div class="p-header-lang">
+                <a id="pt">pt</a>
+                <a id="en">en</a>
+            </div>
+            <a href="#" id="name">Matheus Frej</a>
+        </header>
+
+        <section class="presentation">
+            <div class="titles">
+                <h1 lng-tag="intro">Olá, sou</h1>
+                <h1>Matheus Frej!</h1>
+
+                <h2 id="about" lng-tag="intro-big">Estudante de Ciência da Computação no CIn - UFPE cursando o 5º período.</h2>
+            </div>
+            <img src="assets/me.png" alt="my picture">
+        </section>
+
+        <section class="about">
+            <h1 lng-tag="a-about">Sobre Mim</h1>
+
+            <p lng-tag="intro-text">Sou um estudante de Ciência da Computação e tenho 21 anos. Atualmente, as áreas que tenho mais interesse são de Desenvolvimento Web, Aprendizagem de Máquina e Back-end. Nas experiências acadêmicas, sou Monitor Bolsista de Introdução à Programação e Programação 1 há 4 períodos ao todo. Nós realizamos diversas atividades como tirar dúvidas, construir e revisar listas de exercícios, entrevistar candidatos à monitoria e organizar planilhas.</p>
+
+            <h3 id="recent-projects" lng-tag="interests">INTERESSES PESSOAIS</h3>
+
+            <p lng-tag="interests-text">Gosto de aprender sobre qualquer assunto. No tempo livre, curto sair com as pessoas que eu gosto,  jogar, desenhar, andar na praia e organizar meu Notion. </p>
+        </section>
+
+        <section class="recent-projects">
+            <h1 lng-tag="projects-title">Projetos Recentes</h1>
+
+            <p class="recent-projects-intro" lng-tag="projects-intro">Alguns dos projetos que fiz nesse tempo de faculdade não estarão exibidos abaixo por serem difíceis de visualizar, como bancos de dados e códigos em Verilog e em Haskell.</p>
+
+            <div class="projects">
+                <div class="left-project">
+                    <h1>AluCar</h1>
+                    <div class="project-desc">
+                        <img src="assets/alucar.png" alt="" id="img-alucar">
+                        <p lng-tag="alucar-intro">AluCar foi uma aplicação criada na cadeira de Engenharia de Software e Sistemas e é um sistema de locação de veículos. O sistema tinha tanto back-end quanto front-end, a principal ferramenta utilizada foi Angular e tinha várias funcionalidades que simulavam todo o processo de aluguel de um veículo.</p>
+                    </div>
+                </div>
+
+                <div class="right-project">
+                    <h1>MP3 Player</h1>
+                    <div class="project-desc">
+                        <p lng-tag="mp3-intro">Durante a cadeira de Infraestrutura de Software, fizemos um tocador de músicas mp3 utilizando concorrência em Java. Ele tem várias funcionalidades como tocar, modo shuffle, modo repeat, pular e voltar.</p>
+                        <img src="assets/player.png" alt="" id="img-player">
+                    </div>
+                </div>
+
+                <div class="left-project">
+                    <h1>PokeFall</h1>
+                    <div class="project-desc">
+                        <img src="assets/pokefall.png" alt="" id="img-player">
+                        <p lng-tag="pokefall-intro">PokeFall foi um jogo feito durante a cadeira de Introdução à Programação utilizando pygame e conceitos de orientação à objetos. Nesse jogo você controla um pikachu skatista que atira raios em pokémon que caem do céu. Eles tem chance de soltar itens que ajudam o pikachu.</p>
+                    </div>
+                </div>
+
+                <div class="right-project">
+                    <h1>Projeto Web</h1>
+                    <div class="project-desc">
+                        <p lng-tag="web-intro">Esse site foi um projeto da cadeira de Introdução à Computação do primeiro período. Foi pedido para fazer um site me apresentando com apenas HTML, CSS e JavaScript. Foi uma boa introdução a essas ferramentas.</p>
+                        <img src="assets/site.png" alt="" id="img-site">
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <footer id="contact">
+            <div class="footer-contact">
+                <h2 lng-tag="contact-title">Fale comigo por aqui!</h2>
+                <div class="social-medias">
+                    <div class="contact">
+                        <img src="assets/email.png" alt="">
+                        <p>mflc@cin.ufpe.br</p>
+                        <p>matheusfrej@hotmail.com</p>
+                    </div>
+                    <div class="contact">
+                        <a href="https://www.linkedin.com/in/matheus-frej/" target="_blank"><img src="assets/linkedin.png" alt=""></a>
+                        <p><a href="https://www.linkedin.com/in/matheus-frej/" target="_blank">https://www.linkedin.com/in/matheus-frej/</a></p>
+                    </div>
+                    <div class="contact">
+                        <a href="https://github.com/Matheusfrej" target="_blank"><img src="assets/github.png" alt=""></a>
+                        <p><a href="https://github.com/Matheusfrej" target="_blank">https://github.com/Matheusfrej</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/translate.js"></script>
+    
+</body>
+</html>

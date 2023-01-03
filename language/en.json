@@ -1,0 +1,18 @@
+{
+    "about": "About Me",
+    "recent": "Recent Projects",
+    "contact": "Contact",
+    "intro": "Hi, I'm",
+    "intro-big": "A Computer Science student at CIn - UFPE studying the 5th period.",
+    "a-about": "About Me",
+    "intro-text": "I'm a Computer Science student and I'm 21 years old. Currently, the areas I'm most interested in are Web Development, Machine Learning and Back-end. In academic experiences, I am Head Teaching Assistant of Introduction to Programming and Programming 1 for 4 periods in all. We perform many activities such as answering questions, building and revising exercise lists, interviewing teaching assistant candidates and organizing worksheets.",
+    "interests": "PERSONAL INTERESTS",
+    "interests-text": "I like to learn about any area. In my free time, I enjoy hanging out with the people I like, playing games, drawing, walking on the beach and organizing my Notion.",
+    "projects-title": "Recent Projects",
+    "projects-intro": "Some of the projects I did during college will not be shown below because they are difficult to visualize, such as databases and code in Verilog and Haskell.",
+    "alucar-intro": "AluCar was an application created in the Software and Systems Engineering discipline and is a vehicle location system. The system had both a back-end and a front-end, the main tool used was Angular and it had several functionalities that simulated the entire process of renting a vehicle",
+    "mp3-intro": "During the Software Infrastructure course, we made an mp3 music player using concurrency in Java. It has multiple features like play, shuffle mode, repeat mode, skip and back.",
+    "pokefall-intro": "PokeFall was a game made during the Introduction to Programming course using pygame and object-oriented concepts. In this game you control a skater pikachu that shoots lightning at pokémon that fall from the sky. They have a chance to drop items that help pikachu.",
+    "web-intro": "This site was a project of the Introduction to Computing discipline in the first period. I was asked to make a website presenting myself with only HTML, CSS and JavaScript. It was a good introduction to these tools.",
+    "contact-title": "Find me here!"
+}
